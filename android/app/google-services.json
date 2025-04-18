@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "602706781254",
+    "firebase_url": "https://chats-b3204-default-rtdb.firebaseio.com",
+    "project_id": "chats-b3204",
+    "storage_bucket": "chats-b3204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602706781254:android:e1e79b05ef4f635f4b5647",
+        "android_client_info": {
+          "package_name": "com.example.app_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATs-f46O5_l9wSrKsol2Xt6FC8s1Cdzz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602706781254-71rdfknqmlpmobuhiuilpvt7e20mof1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gameApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602706781254:android:3bce5949ef67fffe4b5647",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATs-f46O5_l9wSrKsol2Xt6FC8s1Cdzz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602706781254-71rdfknqmlpmobuhiuilpvt7e20mof1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gameApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602706781254:android:e02db567449e6ffb4b5647",
+        "android_client_info": {
+          "package_name": "com.example.game_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602706781254-muilmpi5o6nso6olcjg7ekhgfjrjuuuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.game_app",
+            "certificate_hash": "f10b1eb3c3765804935dd28eb8a8c193107d457e"
+          }
+        },
+        {
+          "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATs-f46O5_l9wSrKsol2Xt6FC8s1Cdzz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602706781254-71rdfknqmlpmobuhiuilpvt7e20mof1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gameApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602706781254:android:231c6158a7ed6a834b5647",
+        "android_client_info": {
+          "package_name": "com.mag.g_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602706781254-5nuh5sa9jqv043lg3a80rrflc38jpfcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mag.g_chat",
+            "certificate_hash": "f10b1eb3c3765804935dd28eb8a8c193107d457e"
+          }
+        },
+        {
+          "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATs-f46O5_l9wSrKsol2Xt6FC8s1Cdzz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602706781254-29ljco5r4dfp4f8jaumr4935i8e172hs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602706781254-71rdfknqmlpmobuhiuilpvt7e20mof1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gameApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
