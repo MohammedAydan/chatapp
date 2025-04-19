@@ -44,12 +44,7 @@ Future<void> main() async {
 // new code
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-
-  debugPrint('Handling background message: ${message.messageId}');
-  if (message.data.isNotEmpty) {
-    CustomNotificationService.onMessageHandler(message);
-  }
+  CustomNotificationService.onMessageBackgroundHandler(message);
 }
 
 // old code

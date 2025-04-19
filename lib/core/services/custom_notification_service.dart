@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:chatapp/core/helpers/encryption_helper.dart';
 import 'package:chatapp/core/strings/firebase_collections.dart';
+import 'package:chatapp/firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -129,10 +130,30 @@ class CustomNotificationService {
 
   static setupMessagesHandlers() {
     FirebaseMessaging.onMessage.listen(onMessageHandler);
-    FirebaseMessaging.onMessageOpenedApp.listen(onMessageHandler);
+    FirebaseMessaging.onMessageOpenedApp.listen(onMessageOpenedAppHandler);
   }
 
   static void onMessageHandler(RemoteMessage event) {
+    // message notification
+    // if (event.data.containsKey("msgData")) {
+    //   showChatMessageNotification(event.data["msgData"]);
+    // }
+    // other types...
+  }
+
+  static void onMessageOpenedAppHandler(RemoteMessage event) {
+    // message notification
+    if (event.data.containsKey("msgData")) {
+      showChatMessageNotification(event.data["msgData"]);
+    }
+    // other types...
+  }
+
+  static void onMessageBackgroundHandler(RemoteMessage event) async {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+
     // message notification
     if (event.data.containsKey("msgData")) {
       showChatMessageNotification(event.data["msgData"]);
